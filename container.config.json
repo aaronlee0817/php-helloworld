@@ -13,6 +13,16 @@
 	"cpu": 1,
 	// 内存大小，单位：G
 	"mem": 2,
+	"policyDetails": [
+		{
+			"PolicyType": "cpu",
+			"PolicyThreshold": 50
+		},
+		{
+			"PolicyType": "mem",
+			"PolicyThreshold": 50
+		}
+	],
 	// 扩缩容指标类型
 	"policyType": "cpu",
 	// 扩缩容指标阈值
